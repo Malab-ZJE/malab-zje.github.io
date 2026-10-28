@@ -1,9 +1,7 @@
 # Malab-ZJE 实验室网站
 
-实验室网站的 GitHub Pages 展示版，包含首页、成员、新闻与相册。
+https://malab-zje.github.io/
 
-网站地址：https://malab-zje.github.io/
+独立静态页面：index.html、members.html、album.html、publications.html。图片统一存放在 assets/，页面内容不依赖 JavaScript 加载。
 
-首次发布：Settings → Pages → Deploy from a branch → main → / (root) → Save。
-
-内容修改请在本地编辑版完成并导出，再生成展示版上传。GitHub Pages 不会自动同步本地浏览器或 Sites 的修改。
+GitHub Pages：main 分支，根目录。
