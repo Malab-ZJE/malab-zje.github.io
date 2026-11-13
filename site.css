@@ -37,3 +37,11 @@
 #crop-portrait,#restore-portrait{border:1px solid var(--line);padding:7px 12px;margin:0 8px 12px 0;font-size:14px}
 
 #edit,#editor,#replace-portrait{display:none!important}
+/* Independent navigation pages. */
+.topic-page .header{position:relative}
+.topic-page main{min-height:calc(100svh - 200px)}
+.topic-page .topic-back{margin:22px 5.7% 0}
+.topic-page .scene{min-height:0;padding-top:45px;padding-bottom:85px}
+.topic-page .section-title{white-space:normal}
+.header nav a[aria-current="page"]{color:var(--teal);text-decoration:underline;text-underline-offset:7px}
+@media(max-width:600px){.topic-page .header{height:auto;min-height:120px;padding-bottom:18px}.topic-page .topic-back{margin:18px 6% 0}.topic-page .scene{padding-top:30px;padding-bottom:60px}.topic-page .join h1{font-size:29px}}
