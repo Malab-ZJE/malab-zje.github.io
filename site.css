@@ -45,3 +45,10 @@
 .topic-page .section-title{white-space:normal}
 .header nav a[aria-current="page"]{color:var(--teal);text-decoration:underline;text-underline-offset:7px}
 @media(max-width:600px){.topic-page .header{height:auto;min-height:120px;padding-bottom:18px}.topic-page .topic-back{margin:18px 6% 0}.topic-page .scene{padding-top:30px;padding-bottom:60px}.topic-page .join h1{font-size:29px}}
+
+/* Principal investigator biography is part of the team page. */
+.pi-profile{margin:35px auto 15px}
+.pi-profile .profile-copy h3{font-size:48px;font-weight:400;margin-bottom:12px;line-height:1.5}
+.pi-profile .profile-copy>a[href^="mailto:"]{display:block;margin-top:20px;font:15px/1.8 Georgia,serif;overflow-wrap:anywhere}
+@media(max-width:900px){.pi-profile .profile-copy h3{font-size:36px}}
+@media(max-width:600px){.pi-profile{gap:30px}.pi-profile .portrait-wrap{width:75%}.pi-profile .profile-copy h3{font-size:32px}}
