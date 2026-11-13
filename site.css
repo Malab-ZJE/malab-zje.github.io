@@ -52,3 +52,10 @@
 .pi-profile .profile-copy>a[href^="mailto:"]{display:block;margin-top:20px;font:15px/1.8 Georgia,serif;overflow-wrap:anywhere}
 @media(max-width:900px){.pi-profile .profile-copy h3{font-size:36px}}
 @media(max-width:600px){.pi-profile{gap:30px}.pi-profile .portrait-wrap{width:75%}.pi-profile .profile-copy h3{font-size:32px}}
+
+/* News dates and headlines share the section heading's left edge. */
+.news-list{max-width:none}
+.news-row{grid-template-columns:minmax(0,1fr);gap:8px}
+.news-row>time{display:block}
+.news-row>time:empty,.news-row p:empty{display:none}
+.news-pictures{justify-items:center}
