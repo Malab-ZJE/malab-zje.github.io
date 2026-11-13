@@ -59,3 +59,6 @@
 .news-row>time{display:block}
 .news-row>time:empty,.news-row p:empty{display:none}
 .news-pictures{justify-items:center}
+
+/* Larger, centered news photos with their full proportions visible. */
+.news-pictures img{height:clamp(220px,28vw,360px);object-fit:contain;object-position:center}
